@@ -1,0 +1,38 @@
+[10:38:08] Using gulpfile D:\vso\client-web\gulpfile.js
+[10:38:08] Starting 'build'...
+[10:38:08] Starting 'determineEntrypoints'...
+[10:38:08] Finished 'determineEntrypoints' after 7.55 ms
+[10:38:08] Starting 'build:setup'...
+[10:38:08] Starting 'build:clean'...
+[10:38:08] Starting 'cop:tsconfig'...
+[10:38:09] Finished 'cop:tsconfig' after 582 ms
+[10:38:40] 'build:clean' errored after 32 s
+[10:38:40] Error in plugin "clean"
+Message:
+  "errno": -4048,
+  "code": "EPERM",
+  "syscall": "unlink",
+  "path": "D:\\vso\\client-web\\obj\\datetime",
+  "stack": "Error: EPERM: operation not permitted, unlink 'D:\\vso\\client-web\\obj\\datetime'",
+  "message": "EPERM: operation not permitted, unlink 'D:\\vso\\client-web\\obj\\datetime'",
+  "name": "Error"
+}
+Details:
+    domain: [object Object]
+    domainThrown: true
+
+[10:38:40] ========================================
+[10:38:40] clean - Errors
+[10:38:40] ========================================
+[10:38:40] Failed to clean
+[10:38:40]      {
+[10:38:40]        "errno": -4048,
+[10:38:40]        "code": "EPERM",
+[10:38:40]        "syscall": "unlink",
+[10:38:40]        "path": "D:\\vso\\client-web\\obj\\datetime",
+[10:38:40]        "stack": "Error: EPERM: operation not permitted, unlink 'D:\\vso\\client-web\\obj\\datetime'",
+[10:38:40]        "message": "EPERM: operation not permitted, unlink 'D:\\vso\\client-web\\obj\\datetime'",
+[10:38:40]        "name": "Error"
+[10:38:40]      }
+[10:38:40] 'build:setup' errored after 32 s
+[10:38:41] 'build' errored after 32 s
